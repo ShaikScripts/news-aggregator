@@ -2,6 +2,7 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://ShaikScripts.github.io/news-aggregator/",
   "type": "module",
   "scripts": {
     "dev": "vite",
