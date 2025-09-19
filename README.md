@@ -14,10 +14,18 @@ The project provides a simple and user-friendly interface for easy reading.
 
 1. Navigate to the server directory and create a new file named `.env`.
 2. Add your NewsAPI.org API key to the `.env` file in the following format: `API_KEY=your_news_api_key`.
-3. In the server directory, run `npm install` to install the necessary dependencies.
-4. Start the server by running `node server.js`.
-5. Navigate to the client directory and run `npm install` to install the necessary dependencies.
-6. Start the client by running `npm run dev`.
+3. Start the backend--
+4. cd server
+5. npm install   # install dependencies for server
+6. node index.js # or: npm run dev (if package.json has a dev script)
+7. This should start your server
+8. Start the frontend--
+9. cd client
+10. npm install   # install dependencies for client
+11. npm run dev   # this starts Vite dev server (default: http://localhost:5173)
+12. Access the app
+13. The frontend will run on: http://localhost:5173
+14. The backend will run on: http://localhost:5000 (or whichever port is set in server/index.js).
 
 ## Usage
 
